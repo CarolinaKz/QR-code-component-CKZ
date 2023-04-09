@@ -17,6 +17,15 @@ body {
     width: 250px;
     border-radius: 15px;
     box-shadow: 5px 5px 15px 0px rgba(119, 119, 119, 0.75);
+
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.2s ease-out;
+    transition: -webkit-transform 0.2s ease-out;
+}
+
+.content:hover {
+    transform: scale(1.05);
 }
 
 .content img {
