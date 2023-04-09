@@ -36,6 +36,19 @@ body {
     border-radius: 10px;
 }
 
+.content h1 {
+    font-size: 20px;
+    color: hsl(218, 44%, 22%);  
+    margin: 16px;
+}
+
+.content p {
+    font-size: 15px;
+    font-weight: lighter;
+    color: hsl(220, 15%, 55%);
+    margin: 16px;
+}
+
 @media screen and (max-width: 375px) {
     .content {
         width: 250px;
@@ -49,18 +62,14 @@ body {
     .content:hover {
         transform: none;
     }
-}
 
-.content h1 {
-    font-size: 20px;
-    color: hsl(218, 44%, 22%);
-}
+    .content h1 {
+        margin: 10px;
+    }
 
-.content p {
-    font-size: 15px;
-    font-weight: lighter;
-    margin-top: 0;
-    color: hsl(220, 15%, 55%);
+    .content p {
+        margin: 10px;
+    }
 }
 
 .attribution {
